@@ -20,9 +20,9 @@ body {
 
 main {
   flex: 1 0 auto;
-  width: 200px;
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -43,14 +43,21 @@ header, footer {
   font-size: 12px;
   padding: 8px 0;
   color: rgba(255, 255, 255, 0.5);
+  font-family: 'Catamaran', sans-serif;
+}
+
+#iAm, #watch {
+  font-size:medium
 }
 
 header {
   text-decoration: line-through;
 }
 
-footer {
-  font-family: 'Space Mono', monospace;
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .social {
@@ -76,7 +83,7 @@ a {
   font-weight: 700;
 }
 
-.soon h1 {
+#soon {
   overflow: hidden;
   border-right: .15em solid orange;
   white-space: nowrap;
