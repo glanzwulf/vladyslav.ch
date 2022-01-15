@@ -90,8 +90,8 @@ a {
   margin: 0 auto; 
   letter-spacing: .15em;
   animation: 
-    typing 2s steps(20, end),
-    blink-caret .65s step-end infinite;
+    typing 1.8s steps(20, end),
+    blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
